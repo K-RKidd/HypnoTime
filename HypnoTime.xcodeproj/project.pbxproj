@@ -19,6 +19,10 @@
 		63FBCF7518A3093000A9715F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FBCF5D18A3093000A9715F /* UIKit.framework */; };
 		63FBCF7D18A3093000A9715F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 63FBCF7B18A3093000A9715F /* InfoPlist.strings */; };
 		63FBCF7F18A3093000A9715F /* HypnoTimeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBCF7E18A3093000A9715F /* HypnoTimeTests.m */; };
+		63FBCF8A18A3096900A9715F /* HypnosisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBCF8918A3096900A9715F /* HypnosisViewController.m */; };
+		63FBCF8D18A30A2400A9715F /* HypnosisView.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBCF8C18A30A2400A9715F /* HypnosisView.m */; };
+		63FBCF9018A30C5000A9715F /* TimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63FBCF8F18A30C5000A9715F /* TimeViewController.m */; };
+		63FBCF9218A30CE500A9715F /* TimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 63FBCF9118A30CE500A9715F /* TimeViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,13 @@
 		63FBCF7A18A3093000A9715F /* HypnoTimeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HypnoTimeTests-Info.plist"; sourceTree = "<group>"; };
 		63FBCF7C18A3093000A9715F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		63FBCF7E18A3093000A9715F /* HypnoTimeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HypnoTimeTests.m; sourceTree = "<group>"; };
+		63FBCF8818A3096900A9715F /* HypnosisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HypnosisViewController.h; sourceTree = "<group>"; };
+		63FBCF8918A3096900A9715F /* HypnosisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HypnosisViewController.m; sourceTree = "<group>"; };
+		63FBCF8B18A30A1E00A9715F /* HypnosisView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HypnosisView.h; path = ../Hypnosister/HypnosisView.h; sourceTree = "<group>"; };
+		63FBCF8C18A30A2400A9715F /* HypnosisView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HypnosisView.m; path = ../Hypnosister/HypnosisView.m; sourceTree = "<group>"; };
+		63FBCF8E18A30C5000A9715F /* TimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeViewController.h; sourceTree = "<group>"; };
+		63FBCF8F18A30C5000A9715F /* TimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeViewController.m; sourceTree = "<group>"; };
+		63FBCF9118A30CE500A9715F /* TimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TimeViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,13 @@
 		63FBCF4D18A3093000A9715F = {
 			isa = PBXGroup;
 			children = (
+				63FBCF8E18A30C5000A9715F /* TimeViewController.h */,
+				63FBCF9118A30CE500A9715F /* TimeViewController.xib */,
+				63FBCF8F18A30C5000A9715F /* TimeViewController.m */,
+				63FBCF8B18A30A1E00A9715F /* HypnosisView.h */,
+				63FBCF8C18A30A2400A9715F /* HypnosisView.m */,
+				63FBCF8818A3096900A9715F /* HypnosisViewController.h */,
+				63FBCF8918A3096900A9715F /* HypnosisViewController.m */,
 				63FBCF5F18A3093000A9715F /* HypnoTime */,
 				63FBCF7818A3093000A9715F /* HypnoTimeTests */,
 				63FBCF5818A3093000A9715F /* Frameworks */,
@@ -221,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				63FBCF6418A3093000A9715F /* InfoPlist.strings in Resources */,
+				63FBCF9218A30CE500A9715F /* TimeViewController.xib in Resources */,
 				63FBCF6C18A3093000A9715F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -240,8 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63FBCF8A18A3096900A9715F /* HypnosisViewController.m in Sources */,
+				63FBCF8D18A30A2400A9715F /* HypnosisView.m in Sources */,
 				63FBCF6618A3093000A9715F /* main.m in Sources */,
 				63FBCF6A18A3093000A9715F /* HypnoAppDelegate.m in Sources */,
+				63FBCF9018A30C5000A9715F /* TimeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

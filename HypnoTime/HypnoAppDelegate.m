@@ -7,6 +7,8 @@
 //
 
 #import "HypnoAppDelegate.h"
+#import "HypnosisViewController.h"
+#import "TimeViewController.h"
 
 @implementation HypnoAppDelegate
 
@@ -14,6 +16,21 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    HypnosisViewController *hvc = [[HypnosisViewController alloc]init];
+    //[[self window] setRootViewController:hvc];
+    
+    TimeViewController *tvc = [[TimeViewController alloc] init];
+    //[[self window] setRootViewController:tvc];
+    
+    //ITabBar controller setup
+    UITabBarController *tabBarController = [[UITabBarController alloc]init];
+    
+    //arrays of the other uiviews
+    NSArray *viewControllers = [NSArray arrayWithObjects:hvc, tvc, nil];
+    [tabBarController setViewControllers:viewControllers];
+    
+    [[self window] setRootViewController:tabBarController];
+    
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     return YES;
