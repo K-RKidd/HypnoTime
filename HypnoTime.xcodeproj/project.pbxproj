@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63E28FD71901779800088162 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63E28FD61901779800088162 /* QuartzCore.framework */; };
+		63E28FD919017B4000088162 /* Hypno.png in Resources */ = {isa = PBXBuildFile; fileRef = 63E28FD819017B4000088162 /* Hypno.png */; };
+		63E28FDB19017DF900088162 /* joeeye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 63E28FDA19017DF800088162 /* joeeye.jpg */; };
 		63FBCF5A18A3093000A9715F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FBCF5918A3093000A9715F /* Foundation.framework */; };
 		63FBCF5C18A3093000A9715F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FBCF5B18A3093000A9715F /* CoreGraphics.framework */; };
 		63FBCF5E18A3093000A9715F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63FBCF5D18A3093000A9715F /* UIKit.framework */; };
@@ -36,6 +39,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		63E28FD61901779800088162 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		63E28FD819017B4000088162 /* Hypno.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hypno.png; sourceTree = "<group>"; };
+		63E28FDA19017DF800088162 /* joeeye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = joeeye.jpg; sourceTree = "<group>"; };
 		63FBCF5618A3093000A9715F /* HypnoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypnoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63FBCF5918A3093000A9715F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		63FBCF5B18A3093000A9715F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -76,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63E28FD71901779800088162 /* QuartzCore.framework in Frameworks */,
 				63FBCF7318A3093000A9715F /* XCTest.framework in Frameworks */,
 				63FBCF7518A3093000A9715F /* UIKit.framework in Frameworks */,
 				63FBCF7418A3093000A9715F /* Foundation.framework in Frameworks */,
@@ -88,6 +95,8 @@
 		63FBCF4D18A3093000A9715F = {
 			isa = PBXGroup;
 			children = (
+				63E28FD819017B4000088162 /* Hypno.png */,
+				63E28FDA19017DF800088162 /* joeeye.jpg */,
 				63FBCF8E18A30C5000A9715F /* TimeViewController.h */,
 				63FBCF9118A30CE500A9715F /* TimeViewController.xib */,
 				63FBCF8F18A30C5000A9715F /* TimeViewController.m */,
@@ -114,6 +123,7 @@
 		63FBCF5818A3093000A9715F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				63E28FD61901779800088162 /* QuartzCore.framework */,
 				63FBCF5918A3093000A9715F /* Foundation.framework */,
 				63FBCF5B18A3093000A9715F /* CoreGraphics.framework */,
 				63FBCF5D18A3093000A9715F /* UIKit.framework */,
@@ -240,6 +250,8 @@
 			files = (
 				63FBCF6418A3093000A9715F /* InfoPlist.strings in Resources */,
 				63FBCF9218A30CE500A9715F /* TimeViewController.xib in Resources */,
+				63E28FD919017B4000088162 /* Hypno.png in Resources */,
+				63E28FDB19017DF900088162 /* joeeye.jpg in Resources */,
 				63FBCF6C18A3093000A9715F /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -464,6 +476,7 @@
 				63FBCF8418A3093000A9715F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63FBCF8518A3093000A9715F /* Build configuration list for PBXNativeTarget "HypnoTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +485,7 @@
 				63FBCF8718A3093000A9715F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

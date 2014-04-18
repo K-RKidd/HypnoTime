@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2AAE2E68-BE30-41B4-8A92-26A45A7A1722</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HypnoTime</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3C112E76-15DA-4E1E-8D50-CA19A9DF4C62</key>
+		<string>https://github.com/K-RKidd/HypnoTime.git</string>
+		<key>FF500744-ABEE-45F0-8C7B-165BCD9AF958</key>
+		<string>https://github.com/K-RKidd/Hypnosister.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HypnoTime.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3C112E76-15DA-4E1E-8D50-CA19A9DF4C62</key>
+		<string>../..</string>
+		<key>FF500744-ABEE-45F0-8C7B-165BCD9AF958</key>
+		<string>../../../Hypnosister</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/K-RKidd/HypnoTime.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3C112E76-15DA-4E1E-8D50-CA19A9DF4C62</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FF500744-ABEE-45F0-8C7B-165BCD9AF958</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Hypnosister</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3C112E76-15DA-4E1E-8D50-CA19A9DF4C62</string>
+			<key>IDESourceControlWCCName</key>
+			<string>HypnoTime</string>
+		</dict>
+	</array>
+</dict>
+</plist>

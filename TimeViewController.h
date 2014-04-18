@@ -12,7 +12,11 @@
 {
 IBOutlet UILabel *timeLabel;
     
+    __weak IBOutlet UIButton *timeButton;
 }
 -(IBAction)showCurrentTime:(id)sender;
+-(void)spinTimeLabel;
+-(void)bounceTimeLabel;
+-(void)slideButton;
 
 @end

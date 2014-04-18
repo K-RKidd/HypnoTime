@@ -23,6 +23,7 @@
     // set label for tab bar
     UITabBarItem *tbi = [self tabBarItem];
     [tbi setTitle:@ "Hypnosis"];
+
 }
 -(void) viewDidLoad
 {
